@@ -3,7 +3,7 @@ This is a beginner-friendly implementation for a simple calculator. Its simple e
 
 It features a nice prompt, a robust tokenizer, a pratt parser, a simple runtime, and nice error handling and reporting. It supports basic arithmetic with correct operator and parenthesis precedence. The code should be clear enough to make it simple to add new features like exponents, trigonometric functions, etc.
 
-[![demo](https://asciinema.org/a/546659.svg)](https://asciinema.org/a/546659?autoplay=1)
+![demo](calculator.gif)
 
 # Foreword: Compiler Vs Interpreter
 A compiler treats the source as something to translate to native code, *which can then be executed*. An interpreter treats the source as as instructions to be directly executed (broadly speaking). In other words:
