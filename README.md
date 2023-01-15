@@ -61,7 +61,7 @@ So, given the above syntax tree `Plus(Number(5), Number(6))`, the runtime would 
 As always, everything is in the details, and the implementation will reveal a number of complexities we have to deal with. I'll do my best to explain those along the way.
 
 The source code is divided into four files that **should be read in order**:
-1. [`input.rs`](src/main.rs)
+1. [`input.rs`](src/input.rs)
 2. [`tokenizer.rs`](src/tokenizer.rs)
 3. [`parser.rs`](src/parser.rs)
 4. [`runtime.rs`](src/runtime.rs)
